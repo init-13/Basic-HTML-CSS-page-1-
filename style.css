@@ -1,0 +1,69 @@
+h1{
+    margin-left:3rem;
+    /* font-size: 1.8rem; */
+    /* margin-bottom: 1em; */
+    /* padding-bottom: 2rem; */
+}
+li{
+    list-style: none;
+    margin-left: 2rem;
+    padding-top: 8px;
+    font-size: 1.3rem;
+}
+
+.welcomeImage{
+    height: 800px;
+    width: 1400px;
+}
+.skill{
+    display: flex;
+    margin-top: 0px;
+    margin-left: 4rem;
+}
+img[src="images/lap.jpg"]{
+    height: 45rem;
+    width: 98vw;
+    margin-left: .8vw;
+    margin-right: .5vw;
+    /* margin-bottom: 0px; */
+}
+ul{
+    display: flex;
+}
+.footer{
+    background-color: rgb(78, 77, 77);
+    color: white;
+    height: 80px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.navbar>nav{
+    display: flex;
+    justify-content: space-between;
+    /* ottom: 10rem; */
+}
+
+.navbar ul{
+    margin-right: 1rem;
+}
+
+
+.container{
+    text-align: center;
+    width: 30vw;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: pink;
+}
+
+.container h2{
+    font-weight: bolder;
+}
